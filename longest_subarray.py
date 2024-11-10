@@ -2,16 +2,6 @@ def longest_subarray(array):
 
     results_list = []
     for i in range(len(array)):
-
-        # testing if the first element is one or zero
-        """
-        if array[0] == 0:
-            count_zero = 1
-            count_one = 0
-        else:
-            count_zero = 0
-            count_one = 1
-        """
         count_zero = 0
         count_one = 0
         # looping over subarrays to count zeros and ones
